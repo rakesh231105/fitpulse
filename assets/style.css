@@ -1,0 +1,101 @@
+/* ===== GLOBAL ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f7fff9;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #2ecc71;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* ===== BUTTON ===== */
+button {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #27ae60;
+}
+
+/* ===== INPUT ===== */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* ===== METRICS ===== */
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.metric-box {
+    flex: 1;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #2ecc71;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ===== ALERT ===== */
+.alert {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.good { background: #d4edda; }
+.warning { background: #fff3cd; }
+.danger { background: #f8d7da; }
